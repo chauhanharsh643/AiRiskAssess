@@ -1,0 +1,168 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS for the "risk assess" text */
+.risk-assess {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+.container_signup {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../assets/back_img2.jpg');
+}
+
+.signup-form {
+  width: 42%;
+  margin: 150px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.form-group.double {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.name-input {
+  width: calc(46% - 5px);
+  border-color: #A68B85;
+}
+ 
+label {
+  display: inline-flex;
+  align-items: center;
+}
+
+label input[type="checkbox"] {
+  margin-right: 8px; /* Adjust as needed */
+}
+
+/* Style the text next to the checkbox */
+label span {
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+#first-name,
+#last-name,
+#username,
+#password {
+  width: 100%;
+  padding: 12px; /* Increased padding for taller input boxes */
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Increased border-radius for more rounded corners */
+  border-color: #A68B85;
+}
+
+.button {
+  width: 100%;
+  padding: 13px;
+  background-color: #D8D1D0;
+  color: #A68B85;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  border-color: #A68B85;
+  transition:0.3s;
+}
+.google-signup-button {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 35%;
+  margin-top: 10px;
+  border-radius: 7px;
+  border-color:#00eeff28;
+}
+
+.label:last-child {
+  margin-top: 10px;
+  display: block;
+}
+
+.google-signup-text{
+  margin-top: 20px;
+}
+
+.button.filled {
+  background-color: black;
+  color: white;
+}
+
+/* Change background color on hover */
+.button.filled:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* Change to desired color */
+}
+
+.button:not(.filled):hover {
+  cursor: not-allowed;
+}
+
+/* Increase the size of the checkbox */
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 18px; /* Adjust width as needed */
+  height: 18px; /* Adjust height as needed */
+  background-color: transparent;
+  border: 2px solid #000; /* Border color */
+  border-radius: 4px; /* Adjust border radius as needed */
+  outline: none;
+  cursor: pointer;
+  position: relative; /* Position relative for pseudo-element */
+}
+
+/* Change the color of the checkbox when checked */
+input[type="checkbox"]:checked {
+  background-color: black; /* Change background color to black */
+}
+
+/* Style the checkmark */
+input[type="checkbox"]::after {
+  content: '\2713'; /* Unicode character for checkmark */
+  color: white; /* Color of the checkmark */
+  font-size: 14px; /* Size of the checkmark */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden; /* Initially hidden */
+}
+
+/* Show the checkmark when checkbox is checked */
+input[type="checkbox"]:checked::after {
+  visibility: visible;
+}

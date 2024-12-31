@@ -1,0 +1,173 @@
+.slider-container{
+    background-color: rgb(241, 214, 184);
+    height: 100%;
+}
+
+
+.slider{
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 0% 5% 0% 5%;
+}
+
+.slide-content{
+    height: 320px;
+    /* background-size: cover; */
+    align-content:space-around;
+}
+
+.some{
+    padding: 40px;
+}
+
+.heading{
+    /* color: white; */
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.paragraph{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.welcome-message{
+    display: flex;
+    background-color: rgb(220, 192, 166);
+    padding: 20px;
+}
+
+.message{
+    width: 88%;
+}
+
+.middle{
+    background-color: #D8D1D0;
+    padding: 40px;
+}
+
+.line {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .line::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.374);
+  }
+  
+
+.card{
+    width: 250px;
+    padding: 10px;
+    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+    border-radius: 10px;
+    /* border: 2px solid black; */
+}
+
+.icon{
+    font-size: 30px;
+    margin-left: calc(44% );
+    color: rgb(198, 89, 89);
+}
+
+.head{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.para{
+    text-align: center;
+}
+
+
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+
+.card:hover .para {
+    font-weight: bold; /* Change font weight */
+}
+
+
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.social-icons-container {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 24px;
+}
+
+.social-icons-container div {
+    font-size: 40px;
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.social-icons-container div:hover {
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Specific styles for each icon */
+.facebook-icon {
+    color: blue;
+}
+
+.instagram-icon {
+    color: #e1306c;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: black;
+    color: #D5C2B9;
+}
+
+.footer-line {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer-line::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 1px;
+    background-color: #D5C2B9;
+  }
+  
+  .footer-line::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 1px;
+    background-color: #D5C2B9;
+  }
+  

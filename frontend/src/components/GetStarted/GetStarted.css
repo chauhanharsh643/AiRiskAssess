@@ -1,0 +1,20 @@
+.getStarted-container {
+    padding-top: 100px;
+    padding-right: 130px;
+    padding-bottom: 50px;
+    padding-left: 130px;
+    background-color: rgb(237, 237, 193);
+    margin-bottom: 0px;
+  }
+  
+
+.help-card{
+    width: 250px;
+    height: 140px;
+    padding: 20px;
+    /* background-color: aquamarine; */
+}
+
+.help-card > div:first-child {
+    font-size: 25px;
+}

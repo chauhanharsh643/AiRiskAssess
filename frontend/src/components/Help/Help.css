@@ -1,0 +1,18 @@
+.help-container {
+    background-color: bisque;
+    position: relative; /* Add position: relative */
+    padding: 100px;
+}
+
+.to {
+    text-align: center;
+    align-content: center;
+}
+
+.b > div{
+    margin: 30px;
+    background-color: rgb(225, 185, 150);
+    padding: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}

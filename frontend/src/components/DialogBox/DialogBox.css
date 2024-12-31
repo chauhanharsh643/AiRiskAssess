@@ -1,0 +1,40 @@
+.dialog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    height: 150px;
+    /* height: fit-content; */
+    background-color: black;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: #D5C2B9;
+    border: 2px solid white;
+}
+
+.dialogContainer{
+    display: flex;
+    justify-content: space-around;
+    backdrop-filter: blur(3px); 
+    /* margin-top: 700px; */
+    /* z-index: 9999; */
+
+    position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3); /* Black with 30% opacity */
+  backdrop-filter: blur(3px); /* Small backdrop blur effect */
+    
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
